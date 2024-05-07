@@ -1,0 +1,16 @@
+2
+B#include<string>
+#include <iostream>
+using namespace std;
+int main()
+
+string cities [5];
+for (int x = 0; x < 5; x++)
+{
+}
+cout << "Eter the name of city " << (x + 1) << ": ";
+cin >> cities [x];
+cout << "The Entry for cities in decending order\n";
+for (int y = 4; y >= 0; y--)
+{
+cout << cities [y] << "\n";
